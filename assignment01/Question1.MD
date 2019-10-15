@@ -1,0 +1,4 @@
+##1. Embedded device example
+The device that I work like to discuss is a thermostat.  I think the embedded system works by having a primary microcontroller that sends outputs to the furnace or air conditioning unit.  
+The output to the heater/AC simply tell it to turn on or off.  It also receives temperature sensor inputs to determine if/when to send the signal outputs.  There's also another input from the end user to change the user prefences. The biggest challenges would be the lack of a redundant temperature sensor to validate the inputs.  
+Another challenge would be the loss of electricity/power to the unit. Will there be a battery backup? Will it store the user preferences during the power outage.
